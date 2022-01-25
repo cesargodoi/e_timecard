@@ -17,10 +17,16 @@ HIDDEN_AUTH_FIELDS = {
 }
 
 # choices for some fields
-COUNTRIES = (("BR", _("Brazil")),)
+COUNTRIES = (("BR", _("Brazil")), ("US", _("United States")))
 GENDER_TYPES = (
     ("M", _("male")),
     ("F", _("female")),
+)
+EMPLOYEE_CLASS = (
+    ("SEN", _("Senior")),
+    ("TRN", _("Trainee")),
+    ("FRE", _("Freelancer")),
+    ("VOL", _("Volunteer")),
 )
 
 
